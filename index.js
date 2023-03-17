@@ -4,11 +4,13 @@ const cors = require("cors");
 
 const app = express();
 
+app.use(express.static("public"));
+
 
 app.use(cors());
 app.use(express.json());
 
-app.use(videoRoutes);
+app.use("/", videoRoutes,);
 
 
 
