@@ -299,18 +299,5 @@
                 "timestamp": 1632496261000
             }
         ]
-    },
-    {
-        "title": "Joao",
-        "description": "Joao",
-        "id": "852v8f99wlfbu8eyt",
-        "channel": "User Channel",
-        "image": "http://localhost:8080/Upload-video-preview.jpg",
-        "views": "",
-        "likes": "",
-        "duration": "",
-        "video": "",
-        "timestamp": 1679015090116,
-        "comments": []
     }
 ]
