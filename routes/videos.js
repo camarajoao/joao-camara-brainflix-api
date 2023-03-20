@@ -50,7 +50,7 @@ router.post("/upload", (request, response) => {
 
     fs.writeFileSync("./data/videos.json", JSON.stringify(videosArray));
     console.log(videosArray);
-    response.json(videosArray)
+    response.json(videosArray);
 })
 
 module.exports = router;
